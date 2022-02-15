@@ -1,8 +1,4 @@
 $main-font: 'Work Sans',
 sans-serif;
 $main-text-color: #2b292d;
-@mixin md($max-width) {
-    @media screen and (max-width: $max-width) {
-        @content;
-    }
-}
+$large-md: 1400px;

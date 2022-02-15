@@ -1,1 +1,5 @@
-$large-md: 1400px;
+@mixin media-desktop($max-width) {
+    @media screen and (max-width: $max-width) {
+        @content;
+    }
+}

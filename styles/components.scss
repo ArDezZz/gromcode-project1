@@ -7,7 +7,6 @@
     border-radius: 2px;
     outline: none;
     border: none;
-    //padding: 17px 28px;
     font-weight: 700;
     font-size: 18px;
     line-height: 13px;
@@ -38,7 +37,7 @@
         font-size: 18px;
         opacity: 0.6;
     }
-    @include md($large-md) {
+    @include media-desktop($large-md) {
         &__icon {
             width: 48px;
             height: 48px;

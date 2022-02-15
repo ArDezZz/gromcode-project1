@@ -24,7 +24,7 @@
         max-width: 100%;
         display: none;
     }
-    @include md($large-md) {
+    @include media-desktop($large-md) {
         padding-bottom: 36px;
         &__body {
             padding: 0 15px;

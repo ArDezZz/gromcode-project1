@@ -1,19 +1,19 @@
 .header {
+    display: flex;
+    align-items: center;
     max-width: 1140px;
     height: 62px;
     margin: 0px auto;
     margin-bottom: 76px;
-    display: flex;
-    align-items: center;
-    @include md($large-md) {
+    @include media-desktop($large-md) {
         height: 64px;
     }
     &__logo {
         margin-left: 15px;
     }
     &__menu {
-        margin: 0px 56px 0px auto;
         display: flex;
+        margin: 0px 56px 0px auto;
     }
     &__menu-item {
         display: block;
@@ -34,7 +34,7 @@
     &__burger {
         display: none;
     }
-    @include md($large-md) {
+    @include media-desktop($large-md) {
         background: #fff;
         margin-bottom: 54px;
         &__logo {
@@ -47,10 +47,10 @@
             display: none;
         }
         &__burger {
-            margin-left: auto;
-            padding: 0 20px;
             display: flex;
             align-items: center;
+            margin-left: auto;
+            padding: 0 20px;
             border-left: 1px solid rgba(0, 0, 0, 0.15);
         }
     }
