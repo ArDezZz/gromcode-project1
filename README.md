@@ -1,6 +1,6 @@
 # Layout Sample Project
 
-### [Site link](https://ardezzz.github.io/gromcode-project1/)
+### [Site link](https://site-layout-dezester.netlify.app/)
 
 Layout supports mobile (up-to-400) and desktop (up-to-1400) versions
 
